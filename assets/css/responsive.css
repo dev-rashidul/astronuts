@@ -69,8 +69,12 @@
     padding-top: 170px;
   }
 
+  .hero-content {
+    padding-right: 150px;
+  }
+
   .hero-content h2 {
-    font-size: 36px;
+    font-size: 32px;
     line-height: 45px;
   }
 
@@ -148,6 +152,10 @@
 @media (min-width: 300px) and (max-width: 768px) {
   .hero-wrapper {
     padding-top: 140px;
+  }
+
+  .hero-content {
+    padding-right: 0 !important;
   }
 
   .hero-content h2 {
@@ -324,6 +332,10 @@
   .stats-card p {
     font-size: 12px;
     margin-bottom: 0;
+  }
+
+  .discover-wrapper {
+    padding-top: 30px;
   }
 
   .discover-container {
