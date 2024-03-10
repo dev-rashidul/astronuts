@@ -4,7 +4,7 @@
 
 /* Montserrat Font */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Helvetica Font */
 
@@ -367,8 +367,8 @@ a.sign-up-btn {
   width: 100%;
   height: 70%;
   background: linear-gradient(
-    227deg,
-    rgba(255, 212, 212, 0.55) 2.83%,
+    222deg,
+    rgb(255 212 212 / 42%) 2.83%,
     rgba(14, 21, 62, 0) 38.51%,
     rgba(5, 15, 28, 0.55) 90.59%
   );
@@ -479,5 +479,163 @@ a.sign-up-btn {
 }
 
 /* Engineering Metrics Section CSS End */
+
+/* Stats Section HTML Start */
+
+.stats-container::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(5, 15, 28, 0.24) -1.85%,
+    #ffffff 127.86%
+  );
+  border-radius: 30px;
+}
+
+.stats-container {
+  padding: 190px 0 80px 90px;
+}
+
+.stats-card {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.stats-card h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.stats-card h1 span {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-left: -15px;
+}
+
+.stats-card p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  color: var(--white);
+}
+
+/* Stats Section HTML End */
+
+/* Discover Section CSS Start */
+
+.discover-content {
+  max-width: 55%;
+  width: 100%;
+}
+
+.discover-chart {
+  max-width: 100%;
+  width: 100%;
+}
+
+.discover-content {
+  position: relative;
+  padding: 60px 120px 60px 60px;
+  background: linear-gradient(
+    130.56deg,
+    #dfacf082 -67.98%,
+    rgba(5, 15, 28, 0) 97.64%
+  );
+  border-radius: 20px;
+}
+
+.discover-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #cccccc;
+}
+
+.discover-content a {
+  position: absolute;
+  bottom: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: var(--white);
+}
+
+.discover-chart {
+  background: #182333;
+  padding: 45px;
+  margin-top: 40px;
+  margin-left: -90px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.discover-container::before {
+  position: absolute;
+  content: "";
+  max-width: 595px;
+  width: 100%;
+  max-height: 474px;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 239, 183, 0.2);
+  filter: blur(150px);
+  z-index: -1;
+}
+
+.discover-chart h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.discover-chart h6 span {
+  font-weight: 700;
+}
+
+.graph p {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  margin-bottom: 0;
+  padding-left: 4px;
+}
+
+.graph p span {
+  font-weight: 700;
+}
+
+.graph > span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 7px;
+  color: var(--white);
+  padding: 4px 10px;
+  background: #f0443846;
+  border: 0.689505px solid #f58d86;
+  border-radius: 50px;
+}
+
+.graph span img {
+  padding-right: 5px;
+}
+
+/* Discover Section CSS End */
 
 /* Main Part CSS End */
