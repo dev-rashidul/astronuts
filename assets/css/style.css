@@ -642,4 +642,155 @@ a.sign-up-btn {
 
 /* Discover Section CSS End */
 
+/* Data Driven Section CSS Start */
+
+.data-driven-top {
+  position: relative;
+  padding: 200px 0 80px 85px;
+}
+
+.data-driven-top::before,
+.copilot-top::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 15, 28, 0) -13.88%,
+    rgba(202, 202, 202, 0.62) 74%,
+    #ffffff 127.86%
+  );
+  border-radius: 30px;
+}
+
+.data-driven-top h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.01em;
+  color: var(--white);
+}
+
+.data-driven-top h2 span {
+  color: #00ffff;
+}
+
+.data-driven-card {
+  padding: 62px 52px 0;
+  background: linear-gradient(
+    146deg,
+    #00ffff4d -110.02%,
+    rgba(5, 15, 28, 0) 87.52%
+  );
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.data-driven-card1 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.data-driven-card h5 {
+  max-width: 440px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.data-driven-card1 h5 {
+  padding-left: 52px;
+}
+
+.data-driven-card1-img {
+  padding-top: 70px;
+}
+
+.data-driven-video1 {
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  max-height: 419px;
+  padding-right: 40px;
+}
+
+.data-driven-video1 video {
+  width: 100%;
+}
+
+.data-driven-video2 {
+  padding-top: 140px;
+}
+
+.data-driven-video2 video {
+  width: 100%;
+  border-radius: 17px;
+}
+
+.data-driven-learn-btn {
+  padding-top: 100px;
+}
+
+.data-driven-learn-btn a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #999999;
+}
+
+.data-driven-learn-btn a span {
+  color: var(--white);
+}
+
+/* Data Driven Section CSS End */
+
+/* Copilot Section CSS Start */
+
+.copilot-wrapper {
+  padding-top: 40px;
+}
+
+.copilot-top {
+  position: relative;
+  padding: 300px 0 80px 90px;
+}
+
+.copilot-top h2 {
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 61px;
+  color: var(--white);
+}
+
+.copilot-top h2 span {
+  color: var(--red);
+}
+
+.copilot-container {
+  background: #131e2d;
+  border-radius: 20px;
+}
+
+.copilot-left-card h5 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #cccccc;
+  padding: 65px;
+}
+
+.copilot-left-card img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 70%;
+}
+
+/* Copilot Section CSS End */
+
 /* Main Part CSS End */
