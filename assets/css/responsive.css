@@ -1,0 +1,265 @@
+/* Min Width 1201px and Max Width 1399400*/
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .hero-content {
+    padding-right: 80px;
+  }
+
+  .hero-img img {
+    width: 90%;
+    float: right;
+  }
+
+  .engineering-metrics-buttons {
+    padding-right: 0;
+  }
+
+  .engineering-metrics-shape {
+    bottom: 200px;
+  }
+}
+
+/* Min Width 993px and Max Width 1199200*/
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-content h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero-content h4 {
+    font-size: 20px;
+    padding-right: 100px;
+  }
+
+  .hero-img img {
+    width: 80%;
+    float: right;
+  }
+
+  .copilot-insights {
+    right: 0;
+  }
+
+  .engineering-metrics-gif::after {
+    max-width: 400px;
+    right: 0;
+  }
+
+  .engineering-metrics-buttons {
+    padding-right: 0;
+  }
+
+  .engineering-metrics-buttons a:nth-child(4) {
+    margin-left: 0;
+  }
+}
+
+/* Min Width 769px and Max Width 992px */
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .hero-wrapper {
+    padding-top: 170px;
+  }
+
+  .hero-content h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .hero-content h4 {
+    font-size: 20px;
+    padding-right: 100px;
+  }
+
+  .hero-img {
+    top: 50px;
+  }
+
+  .hero-img img {
+    width: 50%;
+    float: right;
+  }
+
+  .hero-img::after {
+    top: 170px;
+    right: 0;
+    width: 32%;
+  }
+
+  .brands-container {
+    padding: 120px 0 50px;
+  }
+
+  .engineering-metrics-content h3 {
+    font-size: 30px;
+  }
+
+  .copilot-insights {
+    right: 0;
+    bottom: -50px;
+  }
+
+  .engineering-metrics-gif::after {
+    max-width: 400px;
+    right: 0;
+  }
+
+  .engineering-metrics-buttons {
+    padding: 100px 0 0;
+  }
+
+  .engineering-metrics-buttons a:nth-child(4) {
+    margin-left: 0;
+  }
+}
+
+/* Min Width 300px and Max Width 768px */
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .hero-wrapper {
+    padding-top: 140px;
+  }
+
+  .hero-content h2 {
+    font-size: 34px;
+    line-height: 39px;
+  }
+
+  .hero-content h4 {
+    font-size: 17px;
+    padding: 20px 0 25px;
+  }
+
+  .demo-btn a,
+  .hero-sign-Up-btn a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-sign-Up-btn {
+    padding-top: 20px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-img-mobile {
+    padding: 30px 0 20px;
+  }
+
+  .hero-img-mobile::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 40%;
+    background: #00ffff;
+    filter: blur(90px);
+    z-index: -1;
+  }
+
+  .brands-wrapper::before {
+    display: none;
+  }
+
+  .brands-wrapper {
+    margin-top: 0;
+  }
+
+  .brands-container {
+    padding: 0;
+  }
+
+  .brand-card {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 0;
+  }
+
+  .brand-card h6 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin: 0;
+  }
+
+  .engineering-metrics-container {
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+  .engineering-metrics-container::after {
+    position: absolute;
+    content: "";
+    max-width: 351px;
+    height: 216px;
+    left: 0px;
+    top: -180px;
+    background: rgba(190, 212, 255, 0.4);
+    filter: blur(35px);
+  }
+
+  .engineering-metrics-content {
+    padding: 80px 28px 30px;
+  }
+
+  .engineering-metrics-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .copilot-insights {
+    max-width: 200px;
+    padding: 15px;
+    right: 0;
+    bottom: -50px;
+  }
+
+  .copilot-insights h6 {
+    font-size: 7px;
+    margin-bottom: 0;
+  }
+
+  .copilot-insights p {
+    font-size: 7px;
+    line-height: 12px;
+    padding-top: 6px;
+  }
+
+  .ask-input input {
+    padding: 6px;
+    margin-top: 20px;
+  }
+
+  .ask-input ::placeholder {
+    font-size: 8px;
+  }
+
+  .engineering-metrics-gif::after {
+    width: 172px;
+    height: 159px;
+    left: 90px;
+    bottom: -250px;
+    background: rgba(0, 255, 255, 0.2);
+    filter: blur(50px);
+  }
+
+  .engineering-metrics-buttons {
+    justify-content: center;
+    gap: 12px;
+    padding: 80px 0 0;
+  }
+
+  .engineering-metrics-buttons a {
+    font-size: 10px;
+    padding: 10px 15px;
+  }
+
+  .engineering-metrics-buttons a:nth-child(4) {
+    margin-left: 0;
+  }
+}
