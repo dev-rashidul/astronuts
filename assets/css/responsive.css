@@ -17,6 +17,16 @@
   .engineering-metrics-shape {
     bottom: 200px;
   }
+
+  .train-neil-video {
+    padding-left: 140px;
+  }
+
+  .train-neil-shape img {
+    max-width: 25%;
+    width: 100%;
+    padding-top: 30px;
+  }
 }
 
 /* Min Width 993px and Max Width 1199200*/
@@ -70,6 +80,10 @@
   .data-driven-top h2 img,
   .copilot-top h2 img {
     width: 5%;
+  }
+
+  .join-input input {
+    width: 318px;
   }
 }
 
@@ -206,8 +220,14 @@
   }
 
   .hero-content h2 {
-    font-size: 34px;
+    font-size: 33px;
     line-height: 39px;
+    padding-right: 30px;
+  }
+
+  .hero-content h2 img {
+    width: 35px;
+    padding-left: 5px;
   }
 
   .hero-content h4 {
@@ -231,6 +251,7 @@
   }
 
   .hero-img-mobile {
+    text-align: center;
     padding: 30px 0 20px;
   }
 
@@ -240,7 +261,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
+    width: 35%;
     height: 40%;
     background: #00ffff;
     filter: blur(90px);
@@ -468,8 +489,7 @@
 
   .data-driven-card1 h5 {
     font-size: 18px;
-    max-width: 270px;
-    padding-left: 20px;
+    padding: 0 20px;
   }
 
   .data-driven-learn-btn a {
@@ -480,6 +500,13 @@
   .discover-content a img {
     width: 6px;
     margin-left: 2px;
+  }
+
+  .brain-icon-desktop,
+  .pilot-icon-desktop,
+  .rocket-icon-desktop,
+  .copilot-right-img-desktop {
+    display: none;
   }
 
   .dd-btn-mobile {
@@ -499,12 +526,17 @@
     padding: 110px 0 24px 20px;
   }
 
+  .copilot-top img {
+    width: 40px;
+  }
+
   .copilot-left-card h5 {
     font-size: 16px;
     padding: 42px 34px;
   }
 
   .copilot-left-card {
+    position: relative;
     z-index: 1;
   }
 
@@ -531,11 +563,20 @@
     padding: 30px 0 40px;
   }
 
+  .copilot-right-img {
+    float: none !important;
+  }
+
+  .copilot-right-img img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .train-neil-content-box h5 {
-    max-width: 270px;
     font-size: 16px;
     padding-left: 20px;
-    padding-right: 0;
+    padding-right: 19px;
     margin: 0;
   }
 
@@ -620,6 +661,15 @@
   .tech-stack-img img {
     width: 100%;
     max-height: initial;
+  }
+
+  .slack-title::before {
+    display: block !important;
+  }
+
+  .slack-img img {
+    max-height: inherit;
+    object-fit: cover;
   }
 
   .join-wrapper {
@@ -722,5 +772,11 @@
 
   .footer-copyright {
     padding-top: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-content h2 {
+    padding-right: 0px;
   }
 }

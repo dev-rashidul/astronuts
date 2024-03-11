@@ -235,7 +235,8 @@ a.sign-up-btn {
 }
 
 .hero-content h2 img {
-  padding-left: 10px;
+  width: 35px;
+  padding-left: 5px;
 }
 
 .hero-content h4 {
@@ -372,7 +373,7 @@ a.sign-up-btn {
     rgba(14, 21, 62, 0) 38.51%,
     rgba(5, 15, 28, 0.55) 90.59%
   );
-  backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(3px);
   border-radius: 30px;
   z-index: -1;
 }
@@ -398,7 +399,7 @@ a.sign-up-btn {
 .copilot-insights {
   position: absolute;
   right: -150px;
-  bottom: 200px;
+  bottom: 150px;
   max-width: 304px;
   width: 100%;
   padding: 30px;
@@ -475,7 +476,7 @@ a.sign-up-btn {
   position: absolute;
   right: 0;
   bottom: 100px;
-  z-index: -1;
+  z-index: -2;
 }
 
 /* Engineering Metrics Section CSS End */
@@ -550,6 +551,7 @@ a.sign-up-btn {
 
 .discover-content {
   position: relative;
+  height: auto;
   padding: 60px 120px 60px 60px;
   background: linear-gradient(
     130.56deg,
@@ -580,8 +582,8 @@ a.sign-up-btn {
 .discover-chart {
   background: #182333;
   padding: 45px;
-  margin-top: 40px;
-  margin-left: -90px;
+  margin-top: 50px;
+  margin-left: -120px;
   border-radius: 20px;
   z-index: 1;
 }
@@ -662,8 +664,7 @@ a.sign-up-btn {
   height: 100%;
   background: linear-gradient(
     180deg,
-    rgba(5, 15, 28, 0) -13.88%,
-    rgb(202 202 202 / 26%) 74%,
+    rgba(5, 15, 28, 0.24) -1.85%,
     #ffffff 127.86%
   );
   border-radius: 30px;
@@ -726,11 +727,11 @@ a.sign-up-btn {
   width: 100%;
 }
 
-.data-driven-video2 {
+.data-driven-card-img {
   padding-top: 140px;
 }
 
-.data-driven-video2 video {
+.data-driven-card-img img {
   width: 100%;
   border-radius: 17px;
 }
@@ -856,6 +857,10 @@ a.sign-up-btn {
 
 .slack-wrapper {
   padding-top: 270px;
+}
+
+.slack-title::before {
+  display: none;
 }
 
 .slack-title h3 {
