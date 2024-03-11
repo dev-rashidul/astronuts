@@ -613,6 +613,10 @@ a.sign-up-btn {
   font-weight: 700;
 }
 
+.chart-img {
+  text-align: center;
+}
+
 .graph p {
   font-family: "Inter", sans-serif;
   font-size: 10px;
