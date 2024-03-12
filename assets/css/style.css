@@ -552,7 +552,7 @@ a.sign-up-btn {
 
 .discover-content {
   position: relative;
-  height: auto;
+  max-height: 450px;
   padding: 60px 120px 60px 60px;
   background: linear-gradient(
     130.56deg,
@@ -808,8 +808,8 @@ a.sign-up-btn {
   position: absolute;
   content: "";
   top: 0;
-  left: 50px;
-  width: 80%;
+  left: 0;
+  width: 85%;
   height: 600px;
   background: linear-gradient(
     259deg,
@@ -817,6 +817,7 @@ a.sign-up-btn {
     rgba(5, 15, 28, 0) 99.29%
   );
   border-radius: 20px;
+  filter: blur(3px);
   z-index: -1;
 }
 
@@ -828,7 +829,7 @@ a.sign-up-btn {
   letter-spacing: 0.01em;
   color: #ccced1;
   padding-top: 40px;
-  padding-left: 10px;
+  padding-left: 65px;
 }
 
 .train-neil-video {

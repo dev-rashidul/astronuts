@@ -217,6 +217,7 @@
 
   .hero-content {
     padding-right: 0 !important;
+    padding: 0 10px;
   }
 
   .hero-content h2 {
