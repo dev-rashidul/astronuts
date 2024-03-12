@@ -71,6 +71,14 @@
     font-size: 26px;
   }
 
+  .discover-content {
+    max-height: 400px;
+  }
+
+  .discover-content a {
+    font-size: 18px;
+  }
+
   .data-driven-top h2,
   .copilot-top h2,
   .join-title h2 {
@@ -159,16 +167,17 @@
   }
 
   .discover-content {
-    max-width: 56%;
+    max-width: 58%;
+    max-height: 350px;
     padding: 35px 100px 0 35px;
   }
 
   .discover-content h5 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .discover-content a {
-    font-size: 16px;
+    font-size: 14px;
     bottom: 35px;
   }
 
