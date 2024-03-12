@@ -804,7 +804,7 @@ a.sign-up-btn {
   margin-top: 110px;
 }
 
-.train-neil-content-box::after {
+.train-neil-container::after {
   position: absolute;
   content: "";
   top: 0;
