@@ -452,6 +452,7 @@ a.sign-up-btn {
 .engineering-metrics-buttons {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 22px;
 }
 
@@ -465,12 +466,12 @@ a.sign-up-btn {
 }
 
 .engineering-metrics-buttons {
-  padding: 25px 115px;
+  padding: 25px 0;
 }
 
-.engineering-metrics-buttons a:nth-child(4) {
-  margin-left: 140px;
-}
+/* .engineering-metrics-buttons {
+  padding: 25px 115px;
+} */
 
 .engineering-metrics-shape {
   position: absolute;
@@ -827,6 +828,7 @@ a.sign-up-btn {
   letter-spacing: 0.01em;
   color: #ccced1;
   padding-top: 40px;
+  padding-left: 10px;
 }
 
 .train-neil-video {
