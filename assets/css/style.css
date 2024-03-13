@@ -189,7 +189,8 @@ a.sign-up-btn {
 }
 
 @media (max-width: 1200px) {
-  .navbar {
+  .navbar,
+  .navbar.sticky {
     background: #050f1c;
     padding: 20px 15px;
   }
