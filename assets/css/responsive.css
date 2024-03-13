@@ -227,6 +227,21 @@
 /* Min Width 300px and Max Width 768px */
 
 @media (min-width: 300px) and (max-width: 768px) {
+  .brands-wrapper,
+  .engineering-metrics-wrapper,
+  .stats-wrapper,
+  .discover-wrapper,
+  .data-driven-wrapper,
+  .copilot-wrapper,
+  .train-neil-wrapper,
+  .slack-wrapper,
+  .tech-stack-wrapper,
+  .join-wrapper,
+  .footer-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .hero-wrapper {
     padding-top: 140px;
   }
