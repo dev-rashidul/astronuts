@@ -144,6 +144,10 @@
     bottom: -50px;
   }
 
+  .copilot-left-card img {
+    max-width: 60%;
+  }
+
   .engineering-metrics-gif::after,
   .discover-container::before {
     max-width: 200px;
@@ -522,8 +526,7 @@
 
   .brain-icon-desktop,
   .pilot-icon-desktop,
-  .rocket-icon-desktop,
-  .copilot-right-img-desktop {
+  .rocket-icon-desktop {
     display: none;
   }
 
