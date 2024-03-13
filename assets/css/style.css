@@ -458,8 +458,8 @@ a.sign-up-btn {
 .engineering-metrics-buttons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 22px;
+  padding: 25px 115px;
 }
 
 .engineering-metrics-buttons a {
@@ -471,13 +471,9 @@ a.sign-up-btn {
   border-radius: 11px;
 }
 
-.engineering-metrics-buttons {
-  padding: 25px 0;
+.engineering-metrics-buttons a:nth-child(4) {
+  margin-left: 140px;
 }
-
-/* .engineering-metrics-buttons {
-  padding: 25px 115px;
-} */
 
 .engineering-metrics-shape {
   position: absolute;
