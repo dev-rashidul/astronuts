@@ -792,7 +792,7 @@ a.sign-up-btn {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.01em;
-  color: #cccccc;
+  color: var(--white);
   padding: 65px;
 }
 
@@ -834,7 +834,7 @@ a.sign-up-btn {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.01em;
-  color: #ccced1;
+  color: var(--white);
   padding-top: 40px;
   padding-left: 65px;
 }

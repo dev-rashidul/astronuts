@@ -557,6 +557,11 @@
     padding-top: 30px;
   }
 
+  .data-driven-card h5 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
   .data-driven-video2 {
     padding-top: 55px;
   }
